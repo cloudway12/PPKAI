@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPKAI</title>
+      <link rel="icon" type=" image" href="twitter.png"> 
+</head>
+<body>
+    <div class="logo-wrap">
+       <h2 class="first-text">PP</h2>
+       <h2 class="second-text">KAI</h2>
+    </div>
+
+    <div>
+        <img src="64f2fe5c8010e.jpg" alt="gambar kai" class="hero-img" width="1280px" height="500px">
+    </div>
+     
+    <h1 class="h1-first">SELAMAT </h1>
+    <h1 class="h1-second">DATANG DI WEBSITE KAMI</h1>
+
+    <div class="desc">
+   <h1 class="deskripsi">DESKRIPSI TENTANG KAMI</h1>
+    <p class="p-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+
+
+   <!-- foto-->
+    <h1 class="kegiatan">FOTO KEGIATAN KAMI</h1>
+  <div class="slider">
+  <div class="slides">
+    <!-- Slide 1 -->
+    <div class="slide">
+      <img src="GjvmpzBakAA2lV5-810262414.webp" alt="Berita 1">
+      <div class="caption">
+       Lorem Ipsum
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+      <img src="64f2fe5c8010e.jpg" alt="Berita 2">
+      <div class="caption">
+        Lorem Ipsum
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+      <img src="krl-commuter-line-cli-225-produksi-inka-di-madiun-1745214066082_169.jpeg" alt="Berita 3">
+      <div class="caption">
+      Lorem Ipsum
+      </div>
+    </div>
+
+    <!-- Tambahkan slide lainnya sesuai kebutuhan -->
+  </div>
+
+  <!-- Tombol navigasi -->
+  <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo">PPKAI</div>
+    <div class="footer-links">
+      <div>
+        <h4>Connected websites</h4>
+        <ul>
+          <li><a href="#">Website 1</a></li>
+          <li><a href="#">Website 2</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Useful links</h4>
+        <ul>
+          <li><a href="#"></a>>About</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+
+   <div class="footer-contact">
+  <p>Let's stay in touch</p>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-instagram" src="twitter.png"></i></a>
+    <a href="#"><i class="fab fa-youtube" src="instagram-logo.png"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+  <button>Contact us</button>
+</div>
+
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© PPKAI a 2025.</p>
+    <p><a href="#">Privacy policy</a> | <a href="#">Terms of use</a></p>
+  </div>
+</footer>
+
+
+
+    <style>
+
+        
+     *,html{
+      margin: 0px;
+      padding: 0px;
+      }
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          background: rgba(255, 137, 137, 0.808);
+            margin: 0%;
+            padding: 15px;
+        }
+
+      .logo-wrap{
+        position: absolute;
+       background-color:red;
+       padding: 40px 650px;
+       margin: 10px;
+       display: inline-block;
+       justify-content: space-between;
+       align-items: center;
+       top: 0%;
+       z-index: 1000;
+       border-radius: 20px;
+      }
+
+        .first-text{
+         position: absolute;
+        top: 10px;
+        left: 50px;
+        font-size: 50px;
+        font-weight: bold;
+        color: antiquewhite;
+        font-family: georgia;
+        }
+ 
+        .second-text{
+            position: absolute;
+        top: 10px ;
+        left: 120px;
+        font-size: 50px;
+        font-weight: bold;
+        color: black;
+        font-family: sans-serif;
+        }
+ 
+     .hero{
+      position: relative;
+      width: 100px;
+      height: 300px;
+      overflow: hidden ;
+     }
+
+    .hero-img{
+        padding: 20px;
+       margin: 10px;
+       display: inline-block;
+       justify-content: center;
+       align-items: center;
+       top: 0%;
+       z-index: 1000;
+       border-radius: 20px;
+      }
+    
+     .h1-first{
+     position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6); /* biar teks kelihatan */
+
+     }
+     
+     .h1-second{
+         position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6); /* biar teks kelihatan */
+     }
+     
+     .desc{
+     background-color: aquamarine;
+     border-radius: 5px;
+     }
+
+     .deskripsi{
+        display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+
+
+     .p-desc{
+     font-size: 20px;
+     background-color: rgb(230, 248, 242);
+     border-radius: 5px;
+     }
+
+     .kegiatan{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+
+     .slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  max-width: 90%;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.footer {
+  background-color: #db3d3d;
+  color: white;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.social-icons {
+  margin: 10px 0;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin: 0 8px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-bottom a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+    </style>
+
+    <script>
+  let slideIndex = 0;
+  const slides = document.querySelector('.slides');
+  const totalSlides = document.querySelectorAll('.slide').length;
+
+  function moveSlide(step) {
+    slideIndex += step;
+    if (slideIndex < 0) slideIndex = totalSlides - 1;
+    if (slideIndex >= totalSlides) slideIndex = 0;
+
+    slides.style.transform = 'translateX(' + (-slideIndex * 100) + '%)';
+  }
+
+  // Auto-slide setiap 5 detik
+  setInterval(() => moveSlide(1), 5000);
+</script>
+
+</body>
+</html>
